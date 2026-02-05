@@ -235,6 +235,14 @@ Need to give more thought as to who will generate 2FAs and how can they be secur
 </details>
 
 
+<details>
+<summary><b>BlockChain Event Subscription</b></summary>
+<br>
+There could be a service built that can keep monitoring blockchain for events and transactions, and interested users can subscribe to this service (which can deliver events on specific content-topics) in order to listen to the events rather than running a full blockchain node on their own. This reduces workload on users who are interested in events from a specific smart contract(s). 
+Of-course there is the challenge of how you can trust these events i.e some random user spamming with fake events. This has to be solved by other means.
+</details>
+
+
 ## Interested to contribute?
 
 Do you wish to see your idea listed above? Refer to our [contribution guide](https://github.com/waku-org/ideas/blob/master/CONTRIBUTE.md)
